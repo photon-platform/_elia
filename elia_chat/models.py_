@@ -1,8 +1,9 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from datetime import timezone, datetime
+from datetime import UTC, datetime
 from typing import TYPE_CHECKING
+
 
 from elia_chat.config import LaunchConfig, EliaChatModel, launch_config
 
@@ -82,5 +83,4 @@ class ChatData:
     @property
     def update_time(self) -> datetime:
         message_timestamp = self.messages[-1].timestamp
-        return message_timestamp.astimezone().replace(tzinfo=timezone.utc)
-
+        return message_timestamp.astimezone().replace(tzinfo=UTC)

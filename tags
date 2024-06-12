@@ -1,0 +1,284 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AUTO_FOCUS	elia_chat/screens/chat_screen.py	/^    AUTO_FOCUS = "ChatPromptInput"$/;"	v	class:ChatScreen
+AgentIsTyping	elia_chat/widgets/agent_is_typing.py	/^class AgentIsTyping(Horizontal):$/;"	c
+AgentResponseComplete	elia_chat/widgets/chat.py	/^    class AgentResponseComplete(Message):$/;"	c	class:Chat
+AgentResponseFailed	elia_chat/widgets/chat.py	/^    class AgentResponseFailed(Message):$/;"	c	class:Chat
+AgentResponseStarted	elia_chat/widgets/chat.py	/^    class AgentResponseStarted(Message):$/;"	c	class:Chat
+AppHeader	elia_chat/widgets/app_header.py	/^class AppHeader(Widget):$/;"	c
+BINDINGS	elia_chat/app.py	/^    BINDINGS = [$/;"	v	class:Elia
+BINDINGS	elia_chat/screens/chat_details.py	/^    BINDINGS = [$/;"	v	class:ChatDetails
+BINDINGS	elia_chat/screens/chat_screen.py	/^    BINDINGS = [$/;"	v	class:ChatScreen
+BINDINGS	elia_chat/screens/help_screen.py	/^    BINDINGS = [$/;"	v	class:HelpScreen
+BINDINGS	elia_chat/screens/home_screen.py	/^    BINDINGS = [$/;"	v	class:HomeScreen
+BINDINGS	elia_chat/screens/home_screen.py	/^    BINDINGS = [Binding("escape", "app.quit", "Exit Elia", key_display="esc")]$/;"	v	class:HomePromptInput
+BINDINGS	elia_chat/screens/rename_chat_screen.py	/^    BINDINGS = [$/;"	v	class:RenameChat
+BINDINGS	elia_chat/widgets/chat.py	/^    BINDINGS = [$/;"	v	class:Chat
+BINDINGS	elia_chat/widgets/chat.py	/^    BINDINGS = [Binding("escape", "app.pop_screen", "Close chat", key_display="esc")]$/;"	v	class:ChatPromptInput
+BINDINGS	elia_chat/widgets/chat_list.py	/^    BINDINGS = [$/;"	v	class:ChatList
+BINDINGS	elia_chat/widgets/chat_options.py	/^    BINDINGS = [$/;"	v	class:OptionsModal
+BINDINGS	elia_chat/widgets/chatbox.py	/^    BINDINGS = [$/;"	v	class:Chatbox
+BINDINGS	elia_chat/widgets/chatbox.py	/^    BINDINGS = [$/;"	v	class:SelectionTextArea
+BINDINGS	elia_chat/widgets/prompt_input.py	/^    BINDINGS = [Binding("ctrl+j", "submit_prompt", "Send message", key_display="^j")]$/;"	v	class:PromptInput
+COMPONENT_CLASSES	elia_chat/widgets/app_header.py	/^    COMPONENT_CLASSES = {"app-title", "app-subtitle"}$/;"	v	class:AppHeader
+CSS_PATH	elia_chat/app.py	/^    CSS_PATH = Path(__file__).parent \/ "elia.scss"$/;"	v	class:Elia
+Chat	elia_chat/widgets/chat.py	/^class Chat(Widget):$/;"	c
+ChatDao	elia_chat/database/models.py	/^class ChatDao(AsyncAttrs, SQLModel, table=True):$/;"	c
+ChatData	elia_chat/models.py	/^class ChatData:$/;"	c
+ChatDetails	elia_chat/screens/chat_details.py	/^class ChatDetails(ModalScreen[None]):$/;"	c
+ChatHeader	elia_chat/widgets/chat_header.py	/^class ChatHeader(Widget):$/;"	c
+ChatList	elia_chat/widgets/chat_list.py	/^class ChatList(OptionList):$/;"	c
+ChatListItem	elia_chat/widgets/chat_list.py	/^class ChatListItem(Option):$/;"	c
+ChatListItemRenderable	elia_chat/widgets/chat_list.py	/^class ChatListItemRenderable:$/;"	c
+ChatMessage	elia_chat/models.py	/^class ChatMessage:$/;"	c
+ChatOpened	elia_chat/widgets/chat_list.py	/^    class ChatOpened(Message):$/;"	c	class:ChatList
+ChatPromptInput	elia_chat/widgets/chat.py	/^class ChatPromptInput(PromptInput):$/;"	c
+ChatRenamed	elia_chat/widgets/chat_header.py	/^    class ChatRenamed(Message):$/;"	c	class:TitleStatic
+ChatScreen	elia_chat/screens/chat_screen.py	/^class ChatScreen(Screen[None]):$/;"	c
+Chatbox	elia_chat/widgets/chatbox.py	/^class Chatbox(Widget, can_focus=True):$/;"	c
+ChatsManager	elia_chat/chats_manager.py	/^class ChatsManager:$/;"	c
+CursorEscapingBottom	elia_chat/widgets/chat_list.py	/^    class CursorEscapingBottom(Message):$/;"	c	class:ChatList
+CursorEscapingBottom	elia_chat/widgets/chatbox.py	/^    class CursorEscapingBottom(Message):$/;"	c	class:Chatbox
+CursorEscapingBottom	elia_chat/widgets/prompt_input.py	/^    class CursorEscapingBottom(Message):$/;"	c	class:PromptInput
+CursorEscapingTop	elia_chat/widgets/chat_list.py	/^    class CursorEscapingTop(Message):$/;"	c	class:ChatList
+CursorEscapingTop	elia_chat/widgets/prompt_input.py	/^    class CursorEscapingTop(Message):$/;"	c	class:PromptInput
+ENABLE_COMMAND_PALETTE	elia_chat/app.py	/^    ENABLE_COMMAND_PALETTE = False$/;"	v	class:Elia
+ERROR_NOTIFY_TIMEOUT_SECS	elia_chat/constants.py	/^ERROR_NOTIFY_TIMEOUT_SECS = 15$/;"	v
+Elia	elia_chat/app.py	/^class Elia(App[None]):$/;"	c
+EliaChatModel	elia_chat/config.py	/^class EliaChatModel(BaseModel):$/;"	c
+FirstMessageSent	elia_chat/widgets/chat.py	/^    class FirstMessageSent(Message):$/;"	c	class:Chat
+HelpScreen	elia_chat/screens/help_screen.py	/^class HelpScreen(ModalScreen[None]):$/;"	c
+HomePromptInput	elia_chat/screens/home_screen.py	/^class HomePromptInput(PromptInput):$/;"	c
+HomeScreen	elia_chat/screens/home_screen.py	/^class HomeScreen(Screen[None]):$/;"	c
+LaunchConfig	elia_chat/config.py	/^class LaunchConfig(BaseModel):$/;"	c
+LeaveSelectionMode	elia_chat/widgets/chatbox.py	/^    class LeaveSelectionMode(Message):$/;"	c	class:SelectionTextArea
+MessageDao	elia_chat/database/models.py	/^class MessageDao(AsyncAttrs, SQLModel, table=True):$/;"	c
+ModelRadioButton	elia_chat/widgets/chat_options.py	/^class ModelRadioButton(RadioButton):$/;"	c
+OptionsModal	elia_chat/widgets/chat_options.py	/^class OptionsModal(ModalScreen[RuntimeConfig]):$/;"	c
+PromptInput	elia_chat/widgets/prompt_input.py	/^class PromptInput(TextArea):$/;"	c
+PromptSubmitted	elia_chat/widgets/prompt_input.py	/^    class PromptSubmitted(Message):$/;"	c	class:PromptInput
+QuickLaunchArgs	elia_chat/launch_args.py	/^class QuickLaunchArgs(BaseModel):$/;"	c
+RenameChat	elia_chat/screens/rename_chat_screen.py	/^class RenameChat(ModalScreen[str]):$/;"	c
+RuntimeConfig	elia_chat/runtime_config.py	/^class RuntimeConfig(BaseModel):$/;"	c
+SelectionTextArea	elia_chat/widgets/chatbox.py	/^class SelectionTextArea(TextArea):$/;"	c
+SystemPromptsDao	elia_chat/database/models.py	/^class SystemPromptsDao(AsyncAttrs, SQLModel, table=True):$/;"	c
+TitleStatic	elia_chat/widgets/chat_header.py	/^class TitleStatic(Static):$/;"	c
+TokenAnalysis	elia_chat/widgets/token_analysis.py	/^class TokenAnalysis(Widget):$/;"	c
+TokenAnalysisRenderable	elia_chat/widgets/token_analysis.py	/^class TokenAnalysisRenderable:$/;"	c
+UnknownModel	elia_chat/models.py	/^class UnknownModel(EliaChatModel):$/;"	c
+VisualModeToggled	elia_chat/widgets/chatbox.py	/^    class VisualModeToggled(Message):$/;"	c	class:SelectionTextArea
+__init__	elia_chat/app.py	/^    def __init__(self, config: LaunchConfig, startup_prompt: str = ""):$/;"	m	class:Elia
+__init__	elia_chat/screens/chat_details.py	/^    def __init__($/;"	m	class:ChatDetails
+__init__	elia_chat/screens/chat_screen.py	/^    def __init__($/;"	m	class:ChatScreen
+__init__	elia_chat/screens/home_screen.py	/^    def __init__($/;"	m	class:HomeScreen
+__init__	elia_chat/widgets/app_header.py	/^    def __init__($/;"	m	class:AppHeader
+__init__	elia_chat/widgets/chat.py	/^    def __init__(self, chat_data: ChatData) -> None:$/;"	m	class:Chat
+__init__	elia_chat/widgets/chat_header.py	/^    def __init__($/;"	m	class:ChatHeader
+__init__	elia_chat/widgets/chat_header.py	/^    def __init__($/;"	m	class:TitleStatic
+__init__	elia_chat/widgets/chat_list.py	/^    def __init__(self, chat: ChatData, config: LaunchConfig) -> None:$/;"	m	class:ChatListItem
+__init__	elia_chat/widgets/chat_options.py	/^    def __init__($/;"	m	class:ModelRadioButton
+__init__	elia_chat/widgets/chat_options.py	/^    def __init__($/;"	m	class:OptionsModal
+__init__	elia_chat/widgets/chatbox.py	/^    def __init__($/;"	m	class:Chatbox
+__init__	elia_chat/widgets/prompt_input.py	/^    def __init__($/;"	m	class:PromptInput
+__init__	elia_chat/widgets/token_analysis.py	/^    def __init__($/;"	m	class:TokenAnalysis
+__post_init__	elia_chat/widgets/token_analysis.py	/^    def __post_init__(self):$/;"	m	class:TokenAnalysisRenderable	file:
+__rich_console__	elia_chat/widgets/chat_list.py	/^    def __rich_console__($/;"	m	class:ChatListItemRenderable	file:
+__rich_console__	elia_chat/widgets/token_analysis.py	/^    def __rich_console__($/;"	m	class:TokenAnalysisRenderable	file:
+__tablename__	elia_chat/database/models.py	/^    __tablename__ = "chat"$/;"	v	class:ChatDao
+__tablename__	elia_chat/database/models.py	/^    __tablename__ = "message"$/;"	v	class:MessageDao
+__tablename__	elia_chat/database/models.py	/^    __tablename__ = "system_prompt"$/;"	v	class:SystemPromptsDao
+_elia_directory	elia_chat/locations.py	/^def _elia_directory(root: Path) -> Path:$/;"	f
+_get_selected_model_link_text	elia_chat/widgets/app_header.py	/^    def _get_selected_model_link_text(self, model: EliaChatModel) -> str:$/;"	m	class:AppHeader
+_update_selected_model	elia_chat/widgets/app_header.py	/^    def _update_selected_model(self, model: EliaChatModel) -> None:$/;"	m	class:AppHeader
+action	elia_chat/screens/chat_screen.py	/^            action="app.focus('prompt')",$/;"	v	class:ChatScreen
+action	elia_chat/widgets/chat.py	/^            action="focus_first_message",$/;"	v	class:Chat
+action	elia_chat/widgets/chat.py	/^            action="focus_latest_message",$/;"	v	class:Chat
+action	elia_chat/widgets/chatbox.py	/^            action="copy_to_clipboard",$/;"	v	class:Chatbox
+action	elia_chat/widgets/chatbox.py	/^            action="screen.focus('prompt')",$/;"	v	class:Chatbox
+action_archive_chat	elia_chat/widgets/chat_list.py	/^    async def action_archive_chat(self) -> None:$/;"	m	class:ChatList
+action_close	elia_chat/widgets/chat.py	/^    def action_close(self) -> None:$/;"	m	class:Chat
+action_copy_to_clipboard	elia_chat/widgets/chatbox.py	/^    def action_copy_to_clipboard(self) -> None:$/;"	m	class:Chatbox
+action_copy_to_clipboard	elia_chat/widgets/chatbox.py	/^    def action_copy_to_clipboard(self) -> None:$/;"	m	class:SelectionTextArea
+action_cursor_down	elia_chat/widgets/chatbox.py	/^    def action_cursor_down(self, select: bool = False) -> None:$/;"	m	class:SelectionTextArea
+action_cursor_left	elia_chat/widgets/chatbox.py	/^    def action_cursor_left(self, select: bool = False) -> None:$/;"	m	class:SelectionTextArea
+action_cursor_line_end	elia_chat/widgets/chatbox.py	/^    def action_cursor_line_end(self, select: bool = False) -> None:$/;"	m	class:SelectionTextArea
+action_cursor_line_start	elia_chat/widgets/chatbox.py	/^    def action_cursor_line_start(self, select: bool = False) -> None:$/;"	m	class:SelectionTextArea
+action_cursor_right	elia_chat/widgets/chatbox.py	/^    def action_cursor_right(self, select: bool = False) -> None:$/;"	m	class:SelectionTextArea
+action_cursor_up	elia_chat/widgets/chat_list.py	/^    def action_cursor_up(self) -> None:$/;"	m	class:ChatList
+action_cursor_up	elia_chat/widgets/chatbox.py	/^    def action_cursor_up(self, select: bool = False) -> None:$/;"	m	class:SelectionTextArea
+action_cursor_word_left	elia_chat/widgets/chatbox.py	/^    def action_cursor_word_left(self, select: bool = False) -> None:$/;"	m	class:SelectionTextArea
+action_cursor_word_right	elia_chat/widgets/chatbox.py	/^    def action_cursor_word_right(self, select: bool = False) -> None:$/;"	m	class:SelectionTextArea
+action_details	elia_chat/widgets/chat.py	/^    async def action_details(self) -> None:$/;"	m	class:Chat
+action_down	elia_chat/widgets/chatbox.py	/^    def action_down(self) -> None:$/;"	m	class:Chatbox
+action_focus_first_message	elia_chat/widgets/chat.py	/^    def action_focus_first_message(self) -> None:$/;"	m	class:Chat
+action_focus_latest_message	elia_chat/widgets/chat.py	/^    def action_focus_latest_message(self) -> None:$/;"	m	class:Chat
+action_help	elia_chat/app.py	/^    async def action_help(self) -> None:$/;"	m	class:Elia
+action_leave_selection_mode	elia_chat/widgets/chatbox.py	/^    def action_leave_selection_mode(self) -> None:$/;"	m	class:SelectionTextArea
+action_next_code_block	elia_chat/widgets/chatbox.py	/^    def action_next_code_block(self) -> None:$/;"	m	class:SelectionTextArea
+action_options	elia_chat/screens/home_screen.py	/^    async def action_options(self) -> None:$/;"	m	class:HomeScreen
+action_rename	elia_chat/widgets/chat.py	/^    def action_rename(self) -> None:$/;"	m	class:Chat
+action_rename_chat	elia_chat/widgets/chat_header.py	/^    def action_rename_chat(self) -> None:$/;"	m	class:TitleStatic
+action_scroll_container_down	elia_chat/widgets/chat.py	/^    def action_scroll_container_down(self) -> None:$/;"	m	class:Chat
+action_scroll_container_up	elia_chat/widgets/chat.py	/^    def action_scroll_container_up(self) -> None:$/;"	m	class:Chat
+action_select	elia_chat/widgets/chatbox.py	/^    def action_select(self) -> None:$/;"	m	class:Chatbox
+action_send_message	elia_chat/screens/home_screen.py	/^    def action_send_message(self) -> None:$/;"	m	class:HomeScreen
+action_submit_prompt	elia_chat/widgets/prompt_input.py	/^    def action_submit_prompt(self) -> None:$/;"	m	class:PromptInput
+action_toggle_visual_mode	elia_chat/widgets/chatbox.py	/^    def action_toggle_visual_mode(self) -> None:$/;"	m	class:SelectionTextArea
+action_up	elia_chat/widgets/chatbox.py	/^    def action_up(self) -> None:$/;"	m	class:Chatbox
+add_message_to_chat	elia_chat/chats_manager.py	/^    async def add_message_to_chat(chat_id: int, message: ChatMessage) -> None:$/;"	m	class:ChatsManager
+agent_finished_responding	elia_chat/widgets/chat.py	/^    def agent_finished_responding(self, event: AgentResponseComplete) -> None:$/;"	m	class:Chat
+agent_response_complete	elia_chat/screens/chat_screen.py	/^    async def agent_response_complete(self, event: Chat.AgentResponseComplete) -> None:$/;"	m	class:ChatScreen
+all	elia_chat/database/models.py	/^    async def all() -> list["ChatDao"]:$/;"	m	class:ChatDao
+all_chats	elia_chat/chats_manager.py	/^    async def all_chats() -> list[ChatData]:$/;"	m	class:ChatsManager
+all_models	elia_chat/config.py	/^    def all_models(self) -> list[EliaChatModel]:$/;"	m	class:LaunchConfig
+allow_input_submit	elia_chat/widgets/chat.py	/^    allow_input_submit = reactive(True)$/;"	v	class:Chat
+app	elia_chat/app.py	/^    app = Elia(LaunchConfig())$/;"	v
+append_chunk	elia_chat/widgets/chatbox.py	/^    def append_chunk(self, chunk: str) -> None:$/;"	m	class:Chatbox
+apply_overridden_subtitles	elia_chat/widgets/chat_options.py	/^    def apply_overridden_subtitles($/;"	m	class:OptionsModal
+archive_chat	elia_chat/chats_manager.py	/^    async def archive_chat(chat_id: int) -> None:$/;"	m	class:ChatsManager
+back_populates	elia_chat/database/models.py	/^        back_populates="replies",$/;"	v	class:MessageDao
+begin_rename	elia_chat/widgets/chat_header.py	/^    def begin_rename(self) -> None:$/;"	m	class:TitleStatic
+chat_container	elia_chat/widgets/chat.py	/^    def chat_container(self) -> VerticalScroll:$/;"	m	class:Chat
+chat_dao_to_chat_data	elia_chat/database/converters.py	/^def chat_dao_to_chat_data(chat_dao: ChatDao) -> ChatData:$/;"	f
+chat_message_to_message_dao	elia_chat/database/converters.py	/^def chat_message_to_message_dao($/;"	f
+cli	elia_chat/__main__.py	/^def cli() -> None:$/;"	f
+close_screen	elia_chat/screens/rename_chat_screen.py	/^    def close_screen(self, event: Input.Submitted) -> None:$/;"	m	class:RenameChat
+compose	elia_chat/screens/chat_details.py	/^    def compose(self) -> ComposeResult:$/;"	m	class:ChatDetails
+compose	elia_chat/screens/chat_screen.py	/^    def compose(self) -> ComposeResult:$/;"	m	class:ChatScreen
+compose	elia_chat/screens/help_screen.py	/^    def compose(self) -> ComposeResult:$/;"	f
+compose	elia_chat/screens/home_screen.py	/^    def compose(self) -> ComposeResult:$/;"	m	class:HomeScreen
+compose	elia_chat/screens/rename_chat_screen.py	/^    def compose(self) -> ComposeResult:$/;"	m	class:RenameChat
+compose	elia_chat/widgets/agent_is_typing.py	/^    def compose(self) -> ComposeResult:$/;"	m	class:AgentIsTyping
+compose	elia_chat/widgets/app_header.py	/^    def compose(self) -> ComposeResult:$/;"	m	class:AppHeader
+compose	elia_chat/widgets/chat.py	/^    def compose(self) -> ComposeResult:$/;"	m	class:Chat
+compose	elia_chat/widgets/chat_header.py	/^    def compose(self) -> ComposeResult:$/;"	m	class:ChatHeader
+compose	elia_chat/widgets/chat_options.py	/^    def compose(self) -> ComposeResult:$/;"	m	class:OptionsModal
+config_directory	elia_chat/locations.py	/^def config_directory() -> Path:$/;"	f
+config_file	elia_chat/locations.py	/^def config_file() -> Path:$/;"	f
+console	elia_chat/__main__.py	/^console = Console()$/;"	v
+convert_to_local	elia_chat/time_display.py	/^def convert_to_local(utc_dt: datetime) -> datetime:$/;"	f
+create_chat	elia_chat/chats_manager.py	/^    async def create_chat(chat_data: ChatData) -> int:$/;"	m	class:ChatsManager
+create_chat	elia_chat/widgets/chat_list.py	/^    def create_chat(self, chat_data: ChatData) -> None:$/;"	m	class:ChatList
+create_database	elia_chat/database/database.py	/^async def create_database():$/;"	f
+create_db_if_not_exists	elia_chat/__main__.py	/^def create_db_if_not_exists() -> None:$/;"	f
+create_new_chat	elia_chat/screens/home_screen.py	/^    async def create_new_chat(self, event: PromptInput.PromptSubmitted) -> None:$/;"	m	class:HomeScreen
+cursor_escaping_top	elia_chat/screens/home_screen.py	/^    def cursor_escaping_top(self):$/;"	m	class:HomeScreen
+data_directory	elia_chat/locations.py	/^def data_directory() -> Path:$/;"	f
+default	elia_chat/__main__.py	/^    default=False,$/;"	v
+default	elia_chat/__main__.py	/^def default(prompt: tuple[str, ...], model: str, inline: bool):$/;"	f
+default	elia_chat/config.py	/^        default=os.getenv($/;"	v	class:LaunchConfig
+default_model_object	elia_chat/config.py	/^    def default_model_object(self) -> EliaChatModel:$/;"	m	class:LaunchConfig
+description	elia_chat/screens/chat_screen.py	/^            description="Focus prompt",$/;"	v	class:ChatScreen
+description	elia_chat/widgets/chat.py	/^            description="First message",$/;"	v	class:Chat
+description	elia_chat/widgets/chat.py	/^            description="Latest message",$/;"	v	class:Chat
+description	elia_chat/widgets/chatbox.py	/^            description="Copy full message",$/;"	v	class:Chatbox
+description	elia_chat/widgets/chatbox.py	/^            description="Exit selection mode",$/;"	v	class:SelectionTextArea.VisualModeToggled
+description	elia_chat/widgets/chatbox.py	/^            description="Focus prompt",$/;"	v	class:Chatbox
+description	elia_chat/widgets/chatbox.py	/^            description="Toggle visual select",$/;"	v	class:SelectionTextArea.VisualModeToggled
+engine	elia_chat/database/database.py	/^engine = create_async_engine(sqlite_url)$/;"	v
+first_user_message	elia_chat/models.py	/^    def first_user_message(self) -> ChatMessage:$/;"	m	class:ChatData
+focus_latest_message	elia_chat/widgets/chat.py	/^    def focus_latest_message(self) -> None:$/;"	m	class:Chat
+format_timestamp	elia_chat/time_display.py	/^def format_timestamp(dt: datetime) -> str:$/;"	f
+from_id	elia_chat/database/models.py	/^    async def from_id(chat_id: int) -> "ChatDao":$/;"	m	class:ChatDao
+get_border_title	elia_chat/widgets/chat_list.py	/^    def get_border_title(self) -> str:$/;"	m	class:ChatList
+get_builtin_anthropic_models	elia_chat/config.py	/^def get_builtin_anthropic_models() -> list[EliaChatModel]:$/;"	f
+get_builtin_google_models	elia_chat/config.py	/^def get_builtin_google_models() -> list[EliaChatModel]:$/;"	f
+get_builtin_models	elia_chat/config.py	/^def get_builtin_models() -> list[EliaChatModel]:$/;"	f
+get_builtin_openai_models	elia_chat/config.py	/^def get_builtin_openai_models() -> list[EliaChatModel]:$/;"	f
+get_chat	elia_chat/chats_manager.py	/^    async def get_chat(chat_id: int) -> ChatData:$/;"	m	class:ChatsManager
+get_content_width	elia_chat/widgets/chatbox.py	/^    def get_content_width(self, container: Size, viewport: Size) -> int:$/;"	m	class:Chatbox
+get_latest_chatbox	elia_chat/widgets/chat.py	/^    def get_latest_chatbox(self) -> Chatbox:$/;"	m	class:Chat
+get_local_timezone	elia_chat/time_display.py	/^def get_local_timezone():$/;"	f
+get_messages	elia_chat/chats_manager.py	/^    async def get_messages($/;"	m	class:ChatsManager
+get_model	elia_chat/models.py	/^def get_model($/;"	f
+get_session	elia_chat/database/database.py	/^async def get_session() -> AsyncGenerator[AsyncSession, None]:$/;"	f
+handle_chat_rename	elia_chat/widgets/chat.py	/^    async def handle_chat_rename(self, event: TitleStatic.ChatRenamed) -> None:$/;"	m	class:Chat
+handle_visual_select	elia_chat/widgets/chatbox.py	/^    def handle_visual_select(self, event: SelectionTextArea.VisualModeToggled) -> None:$/;"	m	class:Chatbox
+help	elia_chat/__main__.py	/^    help="Run in inline mode, without launching full TUI.",$/;"	v
+import_chatgpt_data	elia_chat/database/import_chatgpt.py	/^async def import_chatgpt_data(file: Path) -> None:$/;"	f
+import_file_to_db	elia_chat/__main__.py	/^def import_file_to_db(file: pathlib.Path) -> None:$/;"	f
+is_empty	elia_chat/widgets/chat.py	/^    def is_empty(self) -> bool:$/;"	m	class:Chat
+is_flag	elia_chat/__main__.py	/^    is_flag=True,$/;"	v
+key	elia_chat/screens/chat_screen.py	/^            key="escape",$/;"	v	class:ChatScreen
+key	elia_chat/widgets/chat.py	/^            key="G",$/;"	v	class:Chat
+key	elia_chat/widgets/chat.py	/^            key="g",$/;"	v	class:Chat
+key	elia_chat/widgets/chatbox.py	/^            key="escape",$/;"	v	class:Chatbox
+key	elia_chat/widgets/chatbox.py	/^            key="y,c",$/;"	v	class:Chatbox
+key_display	elia_chat/screens/chat_screen.py	/^            key_display="esc",$/;"	v	class:ChatScreen
+key_display	elia_chat/widgets/chat.py	/^            key_display="g",$/;"	v	class:Chat
+key_display	elia_chat/widgets/chatbox.py	/^            key_display="esc",$/;"	v	class:Chatbox
+key_display	elia_chat/widgets/chatbox.py	/^            key_display="esc",$/;"	v	class:SelectionTextArea.VisualModeToggled
+key_display	elia_chat/widgets/chatbox.py	/^            key_display="v",$/;"	v	class:SelectionTextArea.VisualModeToggled
+key_display	elia_chat/widgets/chatbox.py	/^            key_display="y",$/;"	v	class:Chatbox
+launch_chat	elia_chat/app.py	/^    async def launch_chat(self, prompt: str, model: EliaChatModel) -> None:$/;"	m	class:Elia
+leave_selection_mode	elia_chat/widgets/chatbox.py	/^    def leave_selection_mode(self) -> None:$/;"	m	class:Chatbox
+load_chat	elia_chat/widgets/chat.py	/^    async def load_chat(self, chat_data: ChatData) -> None:$/;"	m	class:Chat
+load_chat_list_items	elia_chat/widgets/chat_list.py	/^    async def load_chat_list_items(self) -> list[ChatListItem]:$/;"	m	class:ChatList
+load_chats	elia_chat/widgets/chat_list.py	/^    async def load_chats(self) -> list[ChatData]:$/;"	m	class:ChatList
+load_or_create_config_file	elia_chat/__main__.py	/^def load_or_create_config_file() -> dict[str, Any]:$/;"	f
+lookup_key	elia_chat/config.py	/^    def lookup_key(self) -> str:$/;"	m	class:EliaChatModel
+markdown	elia_chat/widgets/chatbox.py	/^    def markdown(self) -> Markdown:$/;"	m	class:Chatbox
+message_dao_to_chat_message	elia_chat/database/converters.py	/^def message_dao_to_chat_message(message_dao: MessageDao, model: str) -> ChatMessage:$/;"	f
+model_config	elia_chat/config.py	/^    model_config = ConfigDict(frozen=True)$/;"	v	class:LaunchConfig
+model_config	elia_chat/runtime_config.py	/^    model_config = ConfigDict(frozen=True)$/;"	v	class:RuntimeConfig
+model_static_content	elia_chat/widgets/chat_header.py	/^    def model_static_content(self) -> str:$/;"	m	class:ChatHeader
+move_focus_below	elia_chat/screens/home_screen.py	/^    async def move_focus_below(self) -> None:$/;"	m	class:HomeScreen
+move_focus_to_prompt	elia_chat/widgets/chat.py	/^    def move_focus_to_prompt(self) -> None:$/;"	m	class:Chat
+new_user_message	elia_chat/widgets/chat.py	/^    async def new_user_message(self, content: str) -> None:$/;"	m	class:Chat
+non_system_messages	elia_chat/models.py	/^    def non_system_messages($/;"	m	class:ChatData
+on_blur	elia_chat/widgets/chat_list.py	/^    def on_blur(self) -> None:$/;"	m	class:ChatList
+on_config_change	elia_chat/widgets/app_header.py	/^        def on_config_change(config: RuntimeConfig) -> None:$/;"	f	function:AppHeader.on_mount
+on_cursor_up_from_prompt	elia_chat/widgets/chat.py	/^    async def on_cursor_up_from_prompt(self) -> None:$/;"	m	class:Chat
+on_key	elia_chat/widgets/prompt_input.py	/^    def on_key(self, event: events.Key) -> None:$/;"	m	class:PromptInput
+on_mount	elia_chat/app.py	/^    async def on_mount(self) -> None:$/;"	m	class:Elia
+on_mount	elia_chat/screens/home_screen.py	/^    def on_mount(self) -> None:$/;"	m	class:HomeScreen
+on_mount	elia_chat/widgets/app_header.py	/^    def on_mount(self) -> None:$/;"	m	class:AppHeader
+on_mount	elia_chat/widgets/chat.py	/^    async def on_mount(self, _: events.Mount) -> None:$/;"	m	class:Chat
+on_mount	elia_chat/widgets/chat_list.py	/^    async def on_mount(self) -> None:$/;"	m	class:ChatList
+on_mount	elia_chat/widgets/chat_options.py	/^    def on_mount(self) -> None:$/;"	m	class:OptionsModal
+on_mount	elia_chat/widgets/chatbox.py	/^    def on_mount(self) -> None:$/;"	m	class:Chatbox
+on_mount	elia_chat/widgets/prompt_input.py	/^    def on_mount(self):$/;"	m	class:PromptInput
+open_chat_screen	elia_chat/screens/home_screen.py	/^    async def open_chat_screen(self, event: ChatList.ChatOpened):$/;"	m	class:HomeScreen
+output_progress	elia_chat/database/import_chatgpt.py	/^    def output_progress($/;"	f	function:import_chatgpt_data
+post_chat_opened	elia_chat/widgets/chat_list.py	/^    async def post_chat_opened(self, event: OptionList.OptionSelected) -> None:$/;"	m	class:ChatList
+prompt_changed	elia_chat/widgets/prompt_input.py	/^    async def prompt_changed(self, event: TextArea.Changed) -> None:$/;"	m	class:PromptInput
+reload_and_refresh	elia_chat/widgets/chat_list.py	/^    async def reload_and_refresh(self, new_highlighted: int = -1) -> None:$/;"	m	class:ChatList
+reload_screen	elia_chat/screens/home_screen.py	/^    async def reload_screen(self) -> None:$/;"	m	class:HomeScreen
+rename_chat	elia_chat/chats_manager.py	/^    async def rename_chat(chat_id: int, new_title: str) -> None:$/;"	m	class:ChatsManager
+rename_chat	elia_chat/database/models.py	/^    async def rename_chat(chat_id: int, new_title: str) -> None:$/;"	m	class:ChatDao
+render	elia_chat/widgets/chatbox.py	/^    def render(self) -> RenderableType:$/;"	m	class:Chatbox
+render	elia_chat/widgets/token_analysis.py	/^    def render(self) -> RenderableType:$/;"	m	class:TokenAnalysis
+request_chat_rename	elia_chat/widgets/chat_header.py	/^    async def request_chat_rename(self, new_title: str) -> None:$/;"	m	class:TitleStatic
+reset	elia_chat/__main__.py	/^def reset() -> None:$/;"	f
+restore_state_on_agent_failure	elia_chat/widgets/chat.py	/^    def restore_state_on_agent_failure(self, event: Chat.AgentResponseFailed) -> None:$/;"	m	class:Chat
+runtime_config	elia_chat/app.py	/^    def runtime_config(self) -> RuntimeConfig:$/;"	m	class:Elia
+runtime_config	elia_chat/app.py	/^    def runtime_config(self, new_runtime_config: RuntimeConfig) -> None:$/;"	m	class:Elia
+sa_column	elia_chat/database/models.py	/^        sa_column=Column(DateTime(), server_default=func.now())$/;"	v	class:ChatDao
+sa_column	elia_chat/database/models.py	/^        sa_column=Column(DateTime(), server_default=func.now())$/;"	v	class:MessageDao
+sa_column	elia_chat/database/models.py	/^        sa_column=Column(DateTime(), server_default=func.now())$/;"	v	class:SystemPromptsDao
+sa_relationship_kwargs	elia_chat/database/models.py	/^        sa_relationship_kwargs={"remote_side": "MessageDao.id"},$/;"	v	class:MessageDao
+scroll_to_latest_message	elia_chat/widgets/chat.py	/^    def scroll_to_latest_message(self):$/;"	m	class:Chat
+selection_mode	elia_chat/widgets/chatbox.py	/^    selection_mode = reactive(False, init=False)$/;"	v	class:Chatbox
+short_preview	elia_chat/models.py	/^    def short_preview(self) -> str:$/;"	m	class:ChatData
+show	elia_chat/widgets/chat.py	/^            show=False,$/;"	v	class:Chat
+show_border_subtitle	elia_chat/widgets/chat_list.py	/^    def show_border_subtitle(self) -> None:$/;"	m	class:ChatList
+sqlite_file_name	elia_chat/database/database.py	/^sqlite_file_name = data_directory() \/ "elia.sqlite"$/;"	v
+sqlite_url	elia_chat/database/database.py	/^sqlite_url = f"sqlite+aiosqlite:\/\/\/{sqlite_file_name}"$/;"	v
+start_awaiting_response	elia_chat/screens/chat_screen.py	/^    def start_awaiting_response(self) -> None:$/;"	m	class:ChatScreen
+stream_agent_response	elia_chat/widgets/chat.py	/^    async def stream_agent_response(self) -> None:$/;"	m	class:Chat
+system_prompt	elia_chat/models.py	/^    def system_prompt(self) -> ChatMessage:$/;"	m	class:ChatData
+title_static_content	elia_chat/widgets/chat_header.py	/^    def title_static_content(self) -> str:$/;"	m	class:ChatHeader
+type	elia_chat/__main__.py	/^    type=click.Path($/;"	v
+update_config	elia_chat/screens/home_screen.py	/^    def update_config(self, runtime_config: RuntimeConfig) -> None:$/;"	m	class:HomeScreen
+update_header	elia_chat/widgets/chat_header.py	/^    def update_header(self, chat: ChatData, model: EliaChatModel):$/;"	m	class:ChatHeader
+update_state	elia_chat/widgets/chat_options.py	/^    def update_state(self, event: TextArea.Changed | RadioSet.Changed) -> None:$/;"	m	class:OptionsModal
+update_time	elia_chat/models.py	/^    def update_time(self) -> datetime:$/;"	m	class:ChatData
+user_chat_message_submitted	elia_chat/widgets/chat.py	/^    async def user_chat_message_submitted($/;"	m	class:Chat
+visual_mode	elia_chat/widgets/chatbox.py	/^    visual_mode = reactive(False, init=False)$/;"	v	class:SelectionTextArea
+watch_has_focus	elia_chat/widgets/chatbox.py	/^    def watch_has_focus(self, value: bool) -> None:$/;"	m	class:Chatbox
+watch_selection_mode	elia_chat/widgets/chatbox.py	/^    async def watch_selection_mode(self, value: bool) -> None:$/;"	m	class:Chatbox
+watch_visual_mode	elia_chat/widgets/chatbox.py	/^    def watch_visual_mode(self, value: bool) -> None:$/;"	m	class:SelectionTextArea

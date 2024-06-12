@@ -70,7 +70,7 @@ class Elia(App[None]):
             )
 
     async def launch_chat(self, prompt: str, model: EliaChatModel) -> None:
-        current_time = datetime.datetime.now(datetime.timezone.utc)
+        current_time = datetime.datetime.now(datetime.UTC)
         system_message: ChatCompletionSystemMessageParam = {
             "content": self.runtime_config.system_prompt,
             "role": "system",
@@ -110,4 +110,3 @@ class Elia(App[None]):
 if __name__ == "__main__":
     app = Elia(LaunchConfig())
     app.run()
-

@@ -5,7 +5,8 @@ Elia CLI
 import asyncio
 import pathlib
 from textwrap import dedent
-import tomllib
+#  import tomllib
+import toml
 from typing import Any
 
 import click
@@ -32,7 +33,7 @@ def load_or_create_config_file() -> dict[str, Any]:
     config = config_file()
 
     try:
-        file_config = tomllib.loads(config.read_text())
+        file_config = toml.loads(config.read_text())
     except FileNotFoundError:
         file_config = {}
         try:
